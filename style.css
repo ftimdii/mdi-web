@@ -241,8 +241,8 @@ main{
 }
 @media(max-width:767){
     .home-image img{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 240px;
     }
 }
 
