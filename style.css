@@ -231,7 +231,56 @@ main{
     }
 }
 
-*//////
+*//////*
+@media (max-width: 767px) {
+    /* تنظیم اندازه‌ی متن */
+    .home-intro h1 {
+        font-size: 35px;
+    }
+    .home-intro p {
+        font-size: 16px;
+    }
+    .about-btn {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    /* تنظیم اندازه‌ی عکس */
+    .home-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* تنظیم انیمیشن‌های متحرک */
+    .anim-elements .anim-element {
+        font-size: 18px;
+    }
+
+    .anim-elements .anim-element:nth-child(1) {
+        top: 10%;
+        left: 10%;
+    }
+    
+    .anim-elements .anim-element:nth-child(2) {
+        bottom: 10%;
+        left: 35%;
+    }
+
+    .anim-elements .anim-element:nth-child(3) {
+        bottom: 15%;
+        left: 20%;
+    }
+
+    .anim-elements .anim-element:nth-child(4) {
+        top: 10%;
+        right: 20%;
+    }
+
+    .anim-elements .anim-element:nth-child(5) {
+        bottom: 12%;
+        right: 20%;
+    }
+}/*
 @media (max-width: 767px) {
     .home-image img {
         height: auto;
@@ -240,7 +289,7 @@ main{
         display: block;
         margin: 0 auto;
     }
-}
+}*/
 
  /*  .home-image img{
     height: 450px;
@@ -325,13 +374,13 @@ main{
     20% {transform: translate(4px, -190px) rotate(38deg);}
     60% {transform: translate(-263px, -164px) rotate(108deg);}
     100% {transform: translate(-1px, 0) rotate(180deg);}
-}*/
+}
 @media (max-width: 767px) {
     .anim-elements .anim-element {
         font-size: 20px; /* متن‌های متحرک کوچکتر بشن */
     }
 
-    .anim-elements .anim-element:nth-child(1) {
+    /*.anim-elements .anim-element:nth-child(1) {
         top: 10%;
         left: 10%;
     }
@@ -355,7 +404,7 @@ main{
         bottom: 12%;
         right: 20%;
     }
-}
+}*/
 
 
 /*section*/
