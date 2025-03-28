@@ -230,7 +230,19 @@ main{
         font-size: 18px;
     }
 }
-.home-image img{
+
+*//////
+@media (max-width: 767px) {
+    .home-image img {
+        height: auto;
+        width: 70%; /* اندازه‌ی عکس رو منعطف کن */
+        max-width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+ /*  .home-image img{
     height: 450px;
     width: 450px;
     object-fit: cover;
@@ -243,7 +255,7 @@ main{
     .home-image img{
         height: 200px;
         width: 240px;
-    }
+    }*/
 }
 
 .anim-elements{
