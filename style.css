@@ -378,8 +378,8 @@ main{
 }
 @media (max-width:676px){
     .feature-box{
-       padding: 30px;
-    margin-right: 20px;}
+       padding: 35px;
+    margin-right: 25px;}
 }
 .feature-box .icon{
     width: 70px;
@@ -397,7 +397,7 @@ main{
     max-width: calc(100% - 70px);
     padding-left: 20px;
 }
-.feature-box h5{
+.feature-box h6{
     font-size: 24px;
     color: var(--dark-color);
     font-weight: 600;
@@ -406,7 +406,7 @@ main{
 }
 @media(max-width:676px){
     .feature-box h6{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 .feature-box p{
