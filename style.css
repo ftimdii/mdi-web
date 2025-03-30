@@ -212,7 +212,7 @@ main{
         font-size: 60px;
     } 
 }
-@media(max-width:767px){
+@media(max-width:676px){
     .home-section .home-intro h1{
         margin: 0 0 25px;
         font-size: 45px;
@@ -405,7 +405,7 @@ main{
 
 }
 @media(max-width:767px){
-    .feature-box h5{
+    .feature-box h6{
         font-size: 22px;
     }
 }
